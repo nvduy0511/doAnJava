@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".KhaiBaoYTe">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#006466">
+        <ImageButton
+            android:id="@+id/ibtn_back"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_back_activity"
+            android:background="#006466">
+        </ImageButton>
+        <TextView
+            android:id="@+id/tvTieuDe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khai Báo Y Tế"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto_slab"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal|center_vertical"
+            >
+
+        </TextView>
+    </FrameLayout>
+<!--    <FrameLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:id="@+id/frameLayout"-->
+<!--        />-->
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:background="@color/xam"
+        app:tabTextColor="@color/black"
+        app:tabSelectedTextColor="@color/main"
+        app:tabIndicatorColor="@color/main"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablayOutKhaiBaoYTe"/>
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPageKhaiBaoYte"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

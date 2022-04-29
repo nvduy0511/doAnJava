@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DoAnMonHoc/DoAnJava/appcovid/CovidApp/app/src/main/res/drawable/ic_calendar.xml" value="0.29" />
+        <entry key="..\:/DoAnMonHoc/DoAnJava/appcovid/CovidApp/app/src/main/res/drawable/ic_colab.xml" value="0.29" />
+        <entry key="..\:/DoAnMonHoc/DoAnJava/appcovid/CovidApp/app/src/main/res/drawable/ic_hospital.xml" value="0.29" />
+        <entry key="..\:/DoAnMonHoc/DoAnJava/appcovid/CovidApp/app/src/main/res/drawable/ic_time.xml" value="0.29" />
+        <entry key="..\:/DoAnMonHoc/DoAnJava/appcovid/CovidApp/app/src/main/res/drawable/rectangle_boder_black.xml" value="0.29" />
+        <entry key="..\:/DoAnMonHoc/DoAnJava/appcovid/CovidApp/app/src/main/res/drawable/rectangle_home_1_blue.xml" value="0.29" />
+        <entry key="..\:/DoAnMonHoc/DoAnJava/appcovid/CovidApp/app/src/main/res/drawable/rectangle_home_1_green.xml" value="0.29" />
+        <entry key="..\:/DoAnMonHoc/DoAnJava/appcovid/CovidApp/app/src/main/res/drawable/rectangle_home_2.xml" value="0.29" />
+        <entry key="..\:/DoAnMonHoc/DoAnJava/appcovid/CovidApp/app/src/main/res/layout/activity_dang_nhap.xml" value="0.35190217391304346" />
+        <entry key="..\:/DoAnMonHoc/DoAnJava/appcovid/CovidApp/app/src/main/res/layout/activity_home.xml" value="0.67" />
+        <entry key="..\:/DoAnMonHoc/DoAnJava/appcovid/CovidApp/app/src/main/res/layout/activity_main.xml" value="0.1890625" />
+        <entry key="..\:/DoAnMonHoc/DoAnJava/appcovid/CovidApp/app/src/main/res/layout/activity_thong_tin_ca_nhan.xml" value="0.2535211267605634" />
+        <entry key="..\:/DoAnMonHoc/DoAnJava/appcovid/CovidApp/app/src/main/res/layout/activity_thong_tin_ca_nhiem.xml" value="0.35190217391304346" />
+        <entry key="..\:/DoAnMonHoc/DoAnJava/appcovid/CovidApp/app/src/main/res/layout/fragment_khai_bao_y_te.xml" value="0.35190217391304346" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1795" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/drawable/ic_launcher.xml" value="0.1795" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1795" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/drawable/ic_launcher_round.xml" value="0.1795" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/drawable/rectangle_boder_black.xml" value="0.1535" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/drawable/rectangle_home_1_blue.xml" value="0.1535" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/layout/activity_dang_nhap.xml" value="0.375" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/layout/activity_dia_diem_co_f0.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/layout/activity_enter_o_t_p.xml" value="0.24635416666666668" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/layout/activity_home.xml" value="0.4" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/layout/activity_khaibaoyte.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/layout/activity_splash.xml" value="0.264" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/layout/activity_thong_tin_ca_nhan.xml" value="0.264" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/layout/activity_thong_tin_ca_nhiem.xml" value="0.375" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/layout/activity_trungTamYTeGanBan.xml" value="0.10989583333333333" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/layout/activity_trung_tam_ye_te_gan_ban.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/layout/fragment_khai_bao_y_te.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1795" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/project/appcovid/CovidApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1795" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

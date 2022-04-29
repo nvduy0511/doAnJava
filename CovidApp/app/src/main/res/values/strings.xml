@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">CovidApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="question1_kbyt">Trong vòng 14 ngày qua. Anh/chị có đến tỉnh thành phố, quốc gia nào?</string>
+    <string name="question2_kbyt">Trong vòng 14 ngày qua. Anh/chị có thấy xuất hiện ít nhất 1 trong các dấu hiệu: sốt ho, khó thở, viêm phổi, đau họng, mệt mỏi không?</string>
+    <string name="question3_kbyt">Trong vòng 14 ngày qua. Anh/chị có tiếp xúc với</string>
+    <string name="sub_question_3_1kbyt">Người bệnh hoặc nghi ngờ mắc COVID-19</string>
+    <string name="sub_question_3_2kbyt">Người từ nước có bệnh COVID-19</string>
+    <string name="sub_question_3_3kbyt">Người có biểu hiện : sốt, ho, khó thở, viêm phổi</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="dangNhap_yc">Vui lòng nhập số điện thoại để <b>đăng ký /đăng nhập</b> ứng dụng </string>
+    <string name="nhapOTP">Chúng tôi đã gửi <b>mã OTP</b> đến số điện thoại của bạn</string>
+    <string name="xin_chao_user">Xin chào, tên user</string>
+    <string name="userimage">Hỉnh ảnh user</string>
+    <string name="ho_va_ten">Họ và tên</string>
+    <string name="luu_thong_tin">Lưu thông tin</string>
+    <string name="thong_tin_ca_nhan">Thông tin cá nhân</string>
+    <string name="thong_tin_ca_nhiem">Thông tin ca nhiễm cộng đồng tại Việt Nam</string>
+    <string name="khai_bao_y_te">Khai báo y tế</string>
+    <string name="y_te_gan_ban">Trung tâm y tế gần bạn</string>
+    <string name="dia_diem_co_f0">Địa điểm có F0</string>
+    <string name="ngay_thang_nam_sinh">Ngày tháng năm sinh</string>
+    <string name="bat_buoc_nhap">(*)</string>
+    <string name="gioi_tinh">Giới tính</string>
+    <string name="nam">Nam</string>
+    <string name="nu">Nữ</string>
+    <string name="so_dien_thoai">Số điện thoại</string>
+    <string name="can_cuoc_cong_dan">Số hộ chiếu/CMND/CCCD</string>
+    <string name="thanh_pho">Tỉnh/Thành phố</string>
+    <string name="quan_huyen">Quận/Huyện</string>
+    <string name="phuong_xa">Phường/Xã</string>
+    <string name="thon_xom_sonha">Thôn/Xóm/Số nhà</string>
+    <string name="title_activity_trung_tam_yte_gan_nhat">TrungTamYTeGanNhatActivity</string>
+</resources>

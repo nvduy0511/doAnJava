@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: restapi
+Implementation-Version: 1.0
+Built-By: nvduy
+Implementation-Vendor-Id: com.covid19
+Build-Jdk: 1.8.0_271
+Implementation-URL: https://projects.spring.io/spring-boot/restapi/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

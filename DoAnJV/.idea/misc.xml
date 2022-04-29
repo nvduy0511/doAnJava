@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/drawable-anydpi/back.xml" value="0.2325" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/drawable-anydpi/delete.xml" value="0.2325" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/drawable-anydpi/ic_down.xml" value="0.1505" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/drawable-anydpi/replay.xml" value="0.1505" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.208" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/drawable/CovidManagementApp/CovidManagementApp/app/src/main/res/font/roboto_slab.xml" value="0.28020833333333334" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/drawable/botron.xml" value="0.2325" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/drawable/custom_button.xml" value="0.1425" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/drawable/edit_text_background.xml" value="0.143" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/drawable/example_item.xml" value="0.2425" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/drawable/goctron.xml" value="0.208" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/drawable/ic_csyt.xml" value="0.2435" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/drawable/ic_launcher_background.xml" value="0.208" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/drawable/ic_place.xml" value="0.2435" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/drawable/ic_user.xml" value="0.2435" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout-land/task_tinhtrangsuckhoe.xml" value="0.21164021164021163" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/activity_detail_sua_benh_nhan.xml" value="0.264" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/activity_detail_sua_co_so_yte.xml" value="0.264" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/activity_sua_benh_nhan.xml" value="0.264" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/activity_sua_co_so_yte.xml" value="0.25" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/activity_them_benh_nhan.xml" value="0.264" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/activity_them_co_so_yte.xml" value="0.25" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/activity_tra_cuu_benh_nhan.xml" value="0.264" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/activity_xoa_benh_nhan.xml" value="0.25" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/activity_xoa_co_so_yte.xml" value="0.25" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/example_item.xml" value="0.25" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/fragment__thong_tin.xml" value="0.2" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/fragment__tinh_trang_suc_khoe.xml" value="0.2" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/fragment_tablayout__view_pager_.xml" value="0.25" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/item_benhnhan.xml" value="0.4" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/item_suabenhnhan.xml" value="0.264" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/item_suacosoyte.xml" value="0.4" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/item_xoabenhnhan.xml" value="0.264" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/item_xoacosoyte.xml" value="0.536" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/task_new_layout.xml" value="0.264" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/task_tinhtrangsuckhoe.xml" value="0.291970802919708" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/layout/task_tinhtrangsuckhor.xml" value="0.25" />
+        <entry key="..\:/LearnJavaAndroid/DoAnJV/app/src/main/res/menu/menuactivity.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/drawable-anydpi/ic_calendar.xml" value="0.159" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/drawable-hdpi/ic_back_activity.xml" value="0.159" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/drawable-xxhdpi/ic_calendar.xml" value="0.121" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/drawable-xxhdpi/rectangle_boder_black.xml" value="0.121" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/drawable-xxhdpi/relative_layout_background.xml" value="0.121" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/drawable/button_custom_bogoc.xml" value="0.121" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/drawable/ic_user_avatar.xml" value="0.121" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/drawable/rectangle_home_2.xml" value="0.121" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/drawable/rectangle_home_blue.xml" value="0.1655" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/font/roboto_slab.xml" value="0.14010416666666667" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/activity_dang_nhap.xml" value="0.264" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/activity_detail_sua_benh_nhan.xml" value="0.264" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/activity_detail_sua_co_so_yte.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/activity_splash.xml" value="0.10989583333333333" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/activity_sua_benh_nhan.xml" value="0.264" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/activity_sua_co_so_yte.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/activity_them_benh_nhan.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/activity_them_co_so_yte.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/activity_thong_tin_ca_nhan.xml" value="0.176" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/activity_thong_tin_ca_nhiem.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/activity_tra_cuu_benh_nhan.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/activity_xoa_benh_nhan.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/activity_xoa_co_so_yte.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/dong_chuc_nang_home.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/item_canhiemtinhthanh.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/item_suabenhnhan.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/layout/item_suacosoyte.xml" value="0.25" />
+        <entry key="..\:/TaiLieu/HocKy2_Nam3/DoAnJava/Phuc/App/CodeQuayLy/DoAnJV/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.121" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

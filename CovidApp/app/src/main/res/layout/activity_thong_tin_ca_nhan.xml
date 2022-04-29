@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:width="360dp"
+    android:height="640dp"
+    android:background="@color/main"
+    tools:context=".ThongTinCaNhanActivity">
+
+
+    <ImageButton
+        android:id="@+id/ibtn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@color/main"
+        android:contentDescription="@string/userimage"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:src="@drawable/ic_back_activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_thongtincanhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/thong_tin_ca_nhan"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/roboto_slab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.320"
+        app:layout_constraintStart_toEndOf="@+id/ibtn_back"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/relative_layout_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_thongtincanhan">
+
+
+        <ScrollView
+            android:id="@+id/src_ttcanhan"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+
+            android:layout_marginBottom="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnLuuThongTin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_userimage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/defaultuserman" />
+
+
+
+                <TextView
+                    android:id="@+id/tvDangXuat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_userimage"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/roboto_slab"
+                    android:text="Đăng xuất"
+                    android:textColor="@color/main"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="gone"/>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/group_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvDangXuat"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="20dp">
+
+                    <TextView
+                        android:id="@+id/tv_hoten"
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:labelFor="@id/edt_hoten"
+                        android:text="@string/ho_va_ten"
+                        android:textColor="#616161" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bat_buoc_nhap"
+                        android:textColor="#B71C1C" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <EditText
+                    android:id="@+id/edt_hoten"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/group_1"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:autofillHints="@null"
+                    android:background="@drawable/rectangle_boder_black"
+                    android:inputType="textPersonName"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/group_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/edt_hoten"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp">
+
+                    <TextView
+                        android:id="@+id/tv_ngaysinh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:labelFor="@id/edt_ngaysinh"
+                        android:text="@string/ngay_thang_nam_sinh"
+                        android:textColor="#616161" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bat_buoc_nhap"
+                        android:textColor="#B71C1C" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <EditText
+                    android:id="@+id/edt_ngaysinh"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@id/group_2"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/rectangle_boder_black"
+                    android:drawableEnd="@drawable/ic_calendar"
+                    android:inputType="date"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    tools:ignore="Autofill,DuplicateSpeakableTextCheck" />
+
+                <!--    -->
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/group_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_ngaysinh"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="20dp">
+
+                    <TextView
+                        android:id="@+id/tv_gioitinh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:labelFor="@+id/rdg_gioitinh"
+                        android:text="@string/gioi_tinh"
+                        android:textColor="#616161" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bat_buoc_nhap"
+                        android:textColor="#B71C1C" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <RadioGroup
+                    android:id="@+id/rdg_gioitinh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_below="@id/group_3"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+
+                    <RadioButton
+                        android:id="@+id/rbtn_nam"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:minHeight="48dp"
+                        android:text="@string/nam"
+
+                        android:textColor="#616161"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbtn_nu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="35dp"
+                        android:checked="false"
+                        android:minHeight="48dp"
+                        android:nextFocusLeft="@string/nam"
+                        android:text="@string/nu"
+                        android:textColor="#616161"
+                        android:textSize="15sp" />
+
+                </RadioGroup>
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/group_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rdg_gioitinh"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="20dp">
+
+                    <TextView
+                        android:id="@+id/tv_sodienthoai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/so_dien_thoai"
+                        android:textColor="#616161" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bat_buoc_nhap"
+                        android:textColor="#B71C1C" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <EditText
+                    android:id="@+id/edt_sodienthoai"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/group_4"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/rectangle_boder_black"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+                <!--    -->
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/group_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_sodienthoai"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="20dp">
+
+                    <TextView
+                        android:id="@+id/tv_cancuoc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/can_cuoc_cong_dan"
+                        android:textColor="#616161" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bat_buoc_nhap"
+                        android:textColor="#B71C1C" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <EditText
+                    android:id="@+id/edt_cancuoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/group_5"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/rectangle_boder_black"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/group_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_cancuoc"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="20dp">
+
+                    <TextView
+                        android:id="@+id/tv_thanhpho"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/thanh_pho"
+                        android:textColor="#616161" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bat_buoc_nhap"
+                        android:textColor="#B71C1C" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <EditText
+                    android:id="@+id/edt_thanhpho"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/group_6"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/rectangle_boder_black"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/group_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_thanhpho"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="20dp">
+
+                    <TextView
+                        android:id="@+id/tv_quanhuyen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/quan_huyen"
+                        android:textColor="#616161" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bat_buoc_nhap"
+                        android:textColor="#B71C1C" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <EditText
+                    android:id="@+id/edt_quan_huyen"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/group_7"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/rectangle_boder_black"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/group_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_quan_huyen"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="20dp">
+
+                    <TextView
+                        android:id="@+id/tv_phuong_xa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/phuong_xa"
+                        android:textColor="#616161" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bat_buoc_nhap"
+                        android:textColor="#B71C1C" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <EditText
+                    android:id="@+id/edt_phuong_xa"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/group_8"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/rectangle_boder_black"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/tv_thon_xom_sonha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_phuong_xa"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/thon_xom_sonha"
+                    android:textColor="#616161" />
+
+                <EditText
+                    android:id="@+id/edt_thon_xom_sonha"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/tv_thon_xom_sonha"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="100dp"
+                    android:background="@drawable/rectangle_boder_black"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+            </RelativeLayout>
+        </ScrollView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLuuThongTin"
+            android:layout_width="173dp"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_custom_bogoc"
+            android:text="@string/luu_thong_tin"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/src_ttcanhan" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rl_home_1"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:background="@drawable/bg_manhinhhome"
+            android:paddingTop="15dp">
+
+            <LinearLayout
+                android:id="@+id/linearXinChao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgAvataruser"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/ic_user_avatar" />
+
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="140dp"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/xin_chao_user"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_services"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="23dp">
+
+            <RelativeLayout
+                android:id="@+id/rectangle_3"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/rectangle_home_1_blue">
+
+                <ImageButton
+                    android:id="@+id/btn_khaibaoyte"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/ic_khaibaoyte"
+                    android:contentDescription="@string/khai_bao_y_te"
+                    android:minWidth="48dp"
+                    android:minHeight="48dp" />
+
+                <TextView
+                    android:layout_width="55dp"
+                    android:layout_height="34dp"
+                    android:layout_below="@id/btn_khaibaoyte"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/khai_bao_y_te"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rectangle_2"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/rectangle_home_1_green">
+
+                <ImageButton
+                    android:id="@+id/btn_hospital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/ic_hospital"
+                    android:contentDescription="@string/y_te_gan_ban"
+                    android:minWidth="48dp"
+                    android:minHeight="48dp" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="34dp"
+                    android:layout_below="@id/btn_hospital"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="@string/y_te_gan_ban" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rectangle_1"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/rectangle_home_1_red">
+
+                <ImageButton
+                    android:id="@+id/btn_diadiem"
+                    android:layout_width="38dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/ic_location"
+                    android:contentDescription="@string/dia_diem_co_f0"
+                    android:minWidth="48dp"
+                    android:minHeight="48dp" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="34dp"
+                    android:layout_below="@id/btn_diadiem"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/dia_diem_co_f0"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/btn_thongtincanhiem"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/bg_thongtincanhiem_home"
+            android:elevation="4dp">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/rectangle_home_2"
+                android:text="@string/thong_tin_ca_nhiem"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_thongtincanhan"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/bg_thongtincanhan">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/rectangle_home_2"
+                android:textColor="@color/white"
+                android:text="@string/thong_tin_ca_nhan"
+                android:gravity="center_horizontal"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
